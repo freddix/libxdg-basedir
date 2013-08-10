@@ -1,0 +1,11 @@
+diff -aurN libxdg-basedir.orig/configure.ac libxdg-basedir/configure.ac
+--- libxdg-basedir.orig/configure.ac	2013-08-10 12:49:09.136101212 +0200
++++ libxdg-basedir/configure.ac	2013-08-10 12:51:07.496793209 +0200
+@@ -2,6 +2,7 @@
+ AC_INIT([libxdg-basedir], [1.2.0], mark.nevill@gmail.com)
+ AM_INIT_AUTOMAKE([-Wall -Werror foreign])
+ # Checks for programs.
++AM_PROG_AR
+ AC_PROG_CC
+ AC_PROG_INSTALL
+ AC_PROG_LIBTOOL
