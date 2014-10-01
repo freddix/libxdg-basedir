@@ -3,7 +3,7 @@
 Summary:	An implementation of the XDG Base Directory specification
 Name:		libxdg-basedir
 Version:	1.2.0
-Release:	1
+Release:	2
 License:	MIT
 Group:		Libraries
 Source0:	http://repo.or.cz/w/libxdg-basedir.git/snapshot/%{gitver}.tar.gz
